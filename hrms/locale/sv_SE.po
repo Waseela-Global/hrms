@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-03-23 09:34+0000\n"
-"PO-Revision-Date: 2025-03-24 08:22\n"
+"PO-Revision-Date: 2025-03-25 09:10\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -1660,7 +1660,7 @@ msgstr "Närvaro för personal {0} är redan angiven för följande datum {1}: {
 
 #: hrms/hr/doctype/leave_application/leave_application.py:565
 msgid "Attendance for employee {0} is already marked for the following dates: {1}"
-msgstr ""
+msgstr "Närvaro för personal {0} är redan angiven för följande datum: {1}"
 
 #: hrms/hr/doctype/attendance_request/attendance_warnings.html:2
 msgid "Attendance for the following dates will be skipped/overwritten on submission"
