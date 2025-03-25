@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-03-23 09:34+0000\n"
-"PO-Revision-Date: 2025-03-24 08:22\n"
+"PO-Revision-Date: 2025-03-25 09:10\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Bosnian\n"
 "MIME-Version: 1.0\n"
@@ -1229,7 +1229,7 @@ msgstr "Primijeni / Odobri Praznike"
 
 #: frontend/src/components/ListFiltersActionSheet.vue:83
 msgid "Apply Filters"
-msgstr "Primjeni filter"
+msgstr "Primjeni Filter"
 
 #: hrms/templates/generators/job_opening.html:29
 #: hrms/templates/generators/job_opening.html:209
@@ -1660,7 +1660,7 @@ msgstr "Prisustvo za {0} je već navedeno za datum {1}: {2}"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:565
 msgid "Attendance for employee {0} is already marked for the following dates: {1}"
-msgstr ""
+msgstr "Prisustvo za {0} je već navedeno za sljedeće datume: {1}"
 
 #: hrms/hr/doctype/attendance_request/attendance_warnings.html:2
 msgid "Attendance for the following dates will be skipped/overwritten on submission"
@@ -2293,7 +2293,7 @@ msgstr "Obriši Sve"
 #. Label of the clearance_date (Date) field in DocType 'Expense Claim'
 #: hrms/hr/doctype/expense_claim/expense_claim.json
 msgid "Clearance Date"
-msgstr "Datum Odobrenja"
+msgstr "Datum Knjiženja"
 
 #. Option for the 'Status' (Select) field in DocType 'Interview'
 #. Option for the 'Result' (Select) field in DocType 'Interview Feedback'
@@ -2674,7 +2674,7 @@ msgstr "Kontakt e-pošta"
 
 #: frontend/src/views/Profile.vue:190
 msgid "Contact Information"
-msgstr "Kontakt informacije"
+msgstr "Kontakt Informacije"
 
 #. Label of the contact_no (Data) field in DocType 'Employee Referral'
 #: hrms/hr/doctype/employee_referral/employee_referral.json
@@ -5368,7 +5368,7 @@ msgstr "Očekivani Skup Vještina"
 #: hrms/hr/doctype/vehicle_service/vehicle_service.json
 #: hrms/overrides/dashboard_overrides.py:34
 msgid "Expense"
-msgstr "Troškovi"
+msgstr "Trošak"
 
 #. Label of the expense_account (Link) field in DocType 'Leave Encashment'
 #. Label of the expense_account (Link) field in DocType 'Gratuity'
@@ -11117,7 +11117,7 @@ msgstr "Red {0}# Uplaćeni iznos ne može biti veći od traženog iznosa predujm
 
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:139
 msgid "Row {0}: Cost Center {1} does not belong to Company {2}"
-msgstr "Red {0}: Centar Troškova {1} ne pripada kompaniji {2}"
+msgstr "Red {0}: Centar Troškova {1} ne pripada Kompaniji {2}"
 
 #: hrms/payroll/doctype/gratuity_rule/gratuity_rule.py:15
 msgid "Row {0}: From (Year) can not be greater than To (Year)"
@@ -14010,7 +14010,7 @@ msgstr "Servisni Artikal Vozila"
 #: hrms/hr/doctype/expense_claim/expense_claim.js:164
 #: hrms/hr/doctype/job_applicant/job_applicant.js:42
 msgid "View"
-msgstr "Pogled"
+msgstr "Prikaz"
 
 #: frontend/src/components/Holidays.vue:10
 msgid "View All"
