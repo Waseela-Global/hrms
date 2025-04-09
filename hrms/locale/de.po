@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-03-30 09:34+0000\n"
-"PO-Revision-Date: 2025-04-05 09:07\n"
+"PO-Revision-Date: 2025-04-09 10:26\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -1101,7 +1101,7 @@ msgstr "Jährliche Zuteilung"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:372
 msgid "Annual Allocation Exceeded"
-msgstr ""
+msgstr "Jährliche Zuteilung überschritten"
 
 #: hrms/setup.py:397
 msgid "Annual Salary"
@@ -1473,7 +1473,7 @@ msgstr "Schicht zuweisen"
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.js:114
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.json
 msgid "Assign Shift Schedule"
-msgstr ""
+msgstr "Schichtplan zuweisen"
 
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.js:53
 msgid "Assign Structure"
@@ -1602,7 +1602,7 @@ msgstr "Anwesenheitsanfrage"
 
 #: frontend/src/views/attendance/AttendanceRequestList.vue:5
 msgid "Attendance Request History"
-msgstr ""
+msgstr "Historie der Anwesenheitsanfragen"
 
 #. Label of the attendance_settings_section (Section Break) field in DocType
 #. 'HR Settings'
@@ -1924,7 +1924,7 @@ msgstr "Blau"
 #. Letter'
 #: hrms/hr/doctype/appointment_letter/appointment_letter.json
 msgid "Body"
-msgstr ""
+msgstr "Inhalt"
 
 #. Label of the bonus_section (Section Break) field in DocType 'Retention
 #. Bonus'
@@ -2077,11 +2077,11 @@ msgstr "Abgesagt"
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.py:53
 msgid "Cannot Modify Time"
-msgstr ""
+msgstr "Die Zeit kann nicht geändert werden"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:323
 msgid "Cannot allocate leaves outside the allocation period {0} - {1}"
-msgstr ""
+msgstr "Abwesenheiten können nicht außerhalb der Abwesenheitsperiode {0} - {1} zugewiesen werden"
 
 #: hrms/api/roster.py:139
 msgid "Cannot break shift after end date"
@@ -2224,7 +2224,7 @@ msgstr "Check-Out Datum"
 #. Label of the checkin_radius (Int) field in DocType 'Shift Location'
 #: hrms/hr/doctype/shift_location/shift_location.json
 msgid "Checkin Radius"
-msgstr ""
+msgstr "Check-in-Radius"
 
 #: hrms/hr/doctype/goal/goal_tree.js:52
 msgid "Child nodes can only be created under 'Group' type nodes"
@@ -2244,7 +2244,7 @@ msgstr "Anspruch Datum"
 #: frontend/src/views/Home.vue:47
 #: frontend/src/views/expense_claim/Dashboard.vue:17
 msgid "Claim an Expense"
-msgstr ""
+msgstr "Kosten geltend machen"
 
 #. Option for the 'Status' (Select) field in DocType 'Employee Advance'
 #: hrms/hr/doctype/employee_advance/employee_advance.json
@@ -2285,7 +2285,7 @@ msgstr ""
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.js:292
 msgid "Click {0} to change the configuration and then resave salary slip"
-msgstr ""
+msgstr "Klicken Sie auf {0}, um die Konfiguration zu ändern und speichern Sie die Gehaltsabrechnung erneut"
 
 #: frontend/src/components/FilePreviewModal.vue:6
 #: hrms/hr/doctype/goal/goal.js:88
@@ -2503,7 +2503,7 @@ msgstr "Details zum Unternehmen"
 
 #: frontend/src/views/Profile.vue:177
 msgid "Company Information"
-msgstr ""
+msgstr "Informationen zum Unternehmen"
 
 #. Name of a DocType
 #. Label of the compensatory_request (Link) field in DocType 'Leave Allocation'
@@ -2849,7 +2849,7 @@ msgstr "Erstellen Sie eine separate Zahlungserfassung gegen den Leistungsanspruc
 #. Assignment'
 #: hrms/hr/doctype/shift_schedule_assignment/shift_schedule_assignment.json
 msgid "Create Shifts After"
-msgstr ""
+msgstr "Schichten erstellen nach dem"
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.py:192
 msgid "Creating Appraisals"
@@ -2881,7 +2881,7 @@ msgstr "Die Erstellung von Gehaltsstrukturzuweisungen wurde in die Warteschlange
 
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.py:194
 msgid "Creation of {0} has been queued. It may take a few minutes."
-msgstr ""
+msgstr "Die Erstellung von {0} wurde in die Warteschlange gestellt. Es kann ein paar Minuten dauern."
 
 #. Label of the criteria (Data) field in DocType 'Employee Feedback Criteria'
 #. Label of the criteria (Link) field in DocType 'Employee Feedback Rating'
@@ -3179,7 +3179,7 @@ msgstr "Daten basierend auf"
 
 #: hrms/setup.py:121
 msgid "Days for which Holidays are blocked for this department."
-msgstr ""
+msgstr "Tage, für die Arbeitsfreie Tage für diese Abteilung gesperrt sind."
 
 #: hrms/payroll/report/bank_remittance/bank_remittance.py:19
 msgid "Debit A/C Number"
@@ -4817,7 +4817,7 @@ msgstr "Am {1} freigestellter Mitarbeiter {0} muss als \"Ausgetreten\" gekennzei
 
 #: hrms/payroll/doctype/gratuity/gratuity.py:163
 msgid "Employee: {0} have to complete minimum {1} years for gratuity"
-msgstr ""
+msgstr "Mitarbeiter: {0} müssen mindestens {1} Jahre absolvieren, um eine Abfindung zu erhalten"
 
 #. Label of the employees_section (Section Break) field in DocType 'Appraisal
 #. Cycle'
@@ -4908,7 +4908,7 @@ msgstr "Markierung für verspäteten Arbeitsbeginn aktivieren"
 
 #: frontend/src/views/AppSettings.vue:25
 msgid "Enable Push Notifications"
-msgstr ""
+msgstr "Push-Benachrichtigungen aktivieren"
 
 #. Label of the enabled (Check) field in DocType 'Daily Work Summary Group'
 #. Label of the enabled (Check) field in DocType 'Shift Schedule Assignment'
@@ -4920,7 +4920,7 @@ msgstr "Aktiviert"
 
 #: frontend/src/views/AppSettings.vue:40
 msgid "Enabling Push Notifications..."
-msgstr ""
+msgstr "Push-Benachrichtigungen werden aktiviert..."
 
 #. Label of the encashment (Section Break) field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
@@ -5066,11 +5066,11 @@ msgstr "Fehlermeldung"
 
 #: frontend/src/components/FormView.vue:531
 msgid "Error creating {0}"
-msgstr ""
+msgstr "Fehler beim Erstellen von {0}"
 
 #: frontend/src/components/FormView.vue:580
 msgid "Error deleting {0}"
-msgstr ""
+msgstr "Fehler beim Löschen von {0}"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:1239
 msgid "Error in formula or condition"
@@ -5086,7 +5086,7 @@ msgstr "Fehler in einigen Zeilen"
 
 #: frontend/src/components/FormView.vue:558
 msgid "Error updating {0}"
-msgstr ""
+msgstr "Fehler beim Aktualisieren von {0}"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:2289
 msgid "Error while evaluating the {doctype} {doclink} at row {row_id}. <br><br> <b>Error:</b> {error} <br><br> <b>Hint:</b> {description}"
@@ -7204,7 +7204,7 @@ msgstr "Ungültige Kostenstelle"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:326
 msgid "Invalid Dates"
-msgstr ""
+msgstr "Ungültige Daten"
 
 #: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:25
 msgid "Invalid Leave Ledger Entry"
@@ -7217,7 +7217,7 @@ msgstr "Ungültiges Konto für die Gehaltsabrechnung. Die Kontowährung muss {0}
 #: hrms/hr/doctype/shift_type/shift_type.py:39
 #: hrms/hr/doctype/shift_type/shift_type.py:48
 msgid "Invalid Shift Times"
-msgstr ""
+msgstr "Ungültige Schichtzeiten"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:624
 msgid "Invalid parameters provided. Please pass the required arguments."
@@ -7677,7 +7677,7 @@ msgstr "Für das Einchecken sind die Werte für Breiten- und Längengrad erforde
 
 #: frontend/src/components/CheckInPanel.vue:131
 msgid "Latitude: {0}°"
-msgstr ""
+msgstr "Breitengrad: {0}°"
 
 #. Option for the 'Calculate Payroll Working Days Based On' (Select) field in
 #. DocType 'Payroll Settings'
@@ -7826,7 +7826,7 @@ msgstr "Hinterlegen Sie den Einzahlungsbetrag pro Tag"
 
 #: frontend/src/views/leave/List.vue:5
 msgid "Leave History"
-msgstr ""
+msgstr "Historie der Abwesenheiten"
 
 #. Name of a report
 #: hrms/hr/report/leave_ledger/leave_ledger.json
@@ -8045,7 +8045,7 @@ msgstr "Abwesenheiten"
 
 #: frontend/src/views/leave/Dashboard.vue:2
 msgid "Leaves & Holidays"
-msgstr ""
+msgstr "Abwesenheiten & Feiertage"
 
 #. Label of the leaves_allocated (Check) field in DocType 'Leave Policy
 #. Assignment'
@@ -8208,7 +8208,7 @@ msgstr ""
 
 #: frontend/src/views/Login.vue:8
 msgid "Login to Frappe HR"
-msgstr ""
+msgstr "Bei Frappe HR anmelden"
 
 #. Label of the longitude (Float) field in DocType 'Employee Checkin'
 #. Label of the longitude (Float) field in DocType 'Shift Location'
@@ -8219,7 +8219,7 @@ msgstr "Längengrad"
 
 #: frontend/src/components/CheckInPanel.vue:132
 msgid "Longitude: {0}°"
-msgstr ""
+msgstr "Längengrad: {0}°"
 
 #. Label of the lower_range (Currency) field in DocType 'Job Applicant'
 #. Label of the lower_range (Currency) field in DocType 'Job Opening'
@@ -9344,7 +9344,7 @@ msgstr "Überzuteilung"
 
 #: hrms/public/js/templates/interview_feedback.html:4
 msgid "Overall Average Rating"
-msgstr ""
+msgstr "Durchschnittliche Gesamtbewertung"
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:71
 msgid "Overlapping Attendance Request"
@@ -9958,7 +9958,7 @@ msgstr "Bitte wählen Sie mindestens eine Zeile aus, um diese Aktion auszuführe
 
 #: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:36
 msgid "Please select company."
-msgstr ""
+msgstr "Bitte wählen Sie ein Unternehmen aus."
 
 #: hrms/hr/doctype/employee_advance/employee_advance.js:16
 #: hrms/hr/doctype/leave_encashment/leave_encashment.js:30
@@ -10359,15 +10359,15 @@ msgstr "Zweck der Reise"
 
 #: frontend/src/views/AppSettings.vue:128
 msgid "Push Notification permission denied"
-msgstr ""
+msgstr "Berechtigung für Push-Benachrichtigung verweigert"
 
 #: frontend/src/views/AppSettings.vue:96
 msgid "Push notifications disabled"
-msgstr ""
+msgstr "Push-Benachrichtigungen deaktiviert"
 
 #: frontend/src/views/AppSettings.vue:80
 msgid "Push notifications have been disabled on your site"
-msgstr ""
+msgstr "Die Push-Benachrichtigungen wurden auf Ihrer Instanz deaktiviert"
 
 #. Option for the 'Earned Leave Frequency' (Select) field in DocType 'Leave
 #. Type'
@@ -10407,7 +10407,7 @@ msgstr ""
 #. Description of the 'Checkin Radius' (Int) field in DocType 'Shift Location'
 #: hrms/hr/doctype/shift_location/shift_location.json
 msgid "Radius within which check-in is allowed (in meters)"
-msgstr ""
+msgstr "Radius, innerhalb dessen der Check-in erlaubt ist (in Meter)"
 
 #. Label of the raised_by (Link) field in DocType 'Employee Grievance'
 #: hrms/hr/doctype/employee_grievance/employee_grievance.json
@@ -10496,25 +10496,25 @@ msgstr "Forderungen"
 
 #: frontend/src/views/attendance/Dashboard.vue:14
 msgid "Recent Attendance Requests"
-msgstr ""
+msgstr "Aktuelle Anwesenheitsanfragen"
 
 #: frontend/src/views/expense_claim/Dashboard.vue:23
 msgid "Recent Expenses"
-msgstr ""
+msgstr "Kürzliche Ausgaben"
 
 #: frontend/src/views/leave/Dashboard.vue:21
 msgid "Recent Leaves"
-msgstr ""
+msgstr "Aktuelle Abwesenheiten"
 
 #: frontend/src/views/attendance/Dashboard.vue:40
 msgid "Recent Shift Requests"
-msgstr ""
+msgstr "Aktuelle Schichtanfragen"
 
 #. Description of the 'Automatically update Last Sync of Checkin' (Check) field
 #. in DocType 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Recommended for a single biometric device / checkins via mobile app"
-msgstr ""
+msgstr "Empfohlen für ein einzelnes biometrisches Gerät / Check-ins über eine mobile App"
 
 #. Option for the 'Action' (Select) field in DocType 'Full and Final Asset'
 #: hrms/hr/doctype/full_and_final_asset/full_and_final_asset.json
@@ -10760,7 +10760,7 @@ msgstr "Wieder öffnen"
 
 #: hrms/setup.py:822 hrms/setup.py:831
 msgid "Repay From Salary"
-msgstr ""
+msgstr "Vom Gehalt zurückzahlen"
 
 #: hrms/hr/utils.py:736
 msgid "Repay From Salary can be selected only for term loans"
@@ -10815,24 +10815,24 @@ msgstr "Berichtet an"
 
 #: frontend/src/views/attendance/Dashboard.vue:9
 msgid "Request Attendance"
-msgstr ""
+msgstr "Anwesenheit beantragen"
 
 #: frontend/src/views/Home.vue:42
 msgid "Request Leave"
-msgstr ""
+msgstr "Abwesenheit beantragen"
 
 #: frontend/src/views/leave/Dashboard.vue:17
 msgid "Request a Leave"
-msgstr ""
+msgstr "Eine Abwesenheit beantragen"
 
 #: frontend/src/views/attendance/Dashboard.vue:35
 msgid "Request a Shift"
-msgstr ""
+msgstr "Eine Schicht beantragen"
 
 #: frontend/src/components/EmployeeAdvanceBalance.vue:21
 #: frontend/src/views/Home.vue:52
 msgid "Request an Advance"
-msgstr ""
+msgstr "Einen Vorschuss beantragen"
 
 #. Label of the requested_by (Link) field in DocType 'Job Requisition'
 #. Label of the section_break_7 (Section Break) field in DocType 'Job
@@ -11209,7 +11209,7 @@ msgstr "Gehaltserwartung"
 
 #: frontend/src/views/Profile.vue:200
 msgid "Salary Information"
-msgstr ""
+msgstr "Gehaltsinformationen"
 
 #. Label of the salary_per (Select) field in DocType 'Job Opening'
 #: hrms/hr/doctype/job_opening/job_opening.json
@@ -11325,7 +11325,7 @@ msgstr ""
 
 #: frontend/src/views/salary_slip/Dashboard.vue:2
 msgid "Salary Slips"
-msgstr ""
+msgstr "Gehaltsabrechnungen"
 
 #. Label of the salary_slips_created (Check) field in DocType 'Payroll Entry'
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.json
@@ -12946,7 +12946,7 @@ msgstr "Zeitaufwand für die Besetzung der offenen Stellen"
 #. Label of the time_to_fill (Duration) field in DocType 'Job Requisition'
 #: hrms/hr/doctype/job_requisition/job_requisition.json
 msgid "Time to Fill"
-msgstr ""
+msgstr "Zeit zum Besetzen"
 
 #. Label of the timelines_tab (Section Break) field in DocType 'Job
 #. Requisition'
@@ -13776,7 +13776,7 @@ msgstr "Ungenutzter Urlaub"
 
 #: frontend/src/components/Holidays.vue:4
 msgid "Upcoming Holidays"
-msgstr ""
+msgstr "Kommende Arbeitsfreie Tage"
 
 #: hrms/controllers/employee_reminders.py:69
 msgid "Upcoming Holidays Reminder"
@@ -13784,7 +13784,7 @@ msgstr "Erinnerung an bevorstehende Arbeitsfreie Tage"
 
 #: frontend/src/views/attendance/Dashboard.vue:23
 msgid "Upcoming Shifts"
-msgstr ""
+msgstr "Kommende Schichten"
 
 #: hrms/hr/doctype/goal/goal_tree.js:251
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.js:208
@@ -14479,7 +14479,7 @@ msgstr "{0} erfolgreich erstellt!"
 
 #: frontend/src/components/FormView.vue:571
 msgid "{0} deleted successfully!"
-msgstr ""
+msgstr "{0} erfolgreich gelöscht!"
 
 #: frontend/src/components/CheckInPanel.vue:183
 #: frontend/src/components/RequestActionSheet.vue:290
@@ -14516,15 +14516,15 @@ msgstr "{0}  erforderlich"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:361
 msgid "{0} leaves allocated successfully"
-msgstr ""
+msgstr "{0} Abwesenheiten erfolgreich zugeteilt"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:488
 msgid "{0} leaves from allocation for {1} leave type have expired and will be processed during the next scheduled job. It is recommended to expire them now before creating new leave policy assignments."
-msgstr ""
+msgstr "{0} Abwesenheiten aus der Zuteilung für die Abwesenheitsart {1} sind verfallen und werden mit dem nächsten geplanten Job verarbeitet. Es wird empfohlen, sie jetzt verfallen zu lassen, bevor Sie neue Zuweisungen für Abwesenheiten erstellen."
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:356
 msgid "{0} leaves were manually allocated by {1} on {2}"
-msgstr ""
+msgstr "{0} Abwesenheiten wurden manuell von {1} auf {2} zugewiesen"
 
 #: hrms/hr/doctype/training_feedback/training_feedback.py:14
 #: hrms/hr/doctype/training_result/training_result.py:16
@@ -14537,11 +14537,11 @@ msgstr "{0} von {1} abgeschlossen"
 
 #: frontend/src/components/CheckInPanel.vue:174
 msgid "{0} successful!"
-msgstr ""
+msgstr "{0} erfolgreich!"
 
 #: frontend/src/components/RequestActionSheet.vue:280
 msgid "{0} successfully!"
-msgstr ""
+msgstr "{0} erfolgreich!"
 
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.js:261
 msgid "{0} to {1} employee(s)?"
@@ -14549,7 +14549,7 @@ msgstr ""
 
 #: frontend/src/components/FormView.vue:549
 msgid "{0} updated successfully!"
-msgstr ""
+msgstr "{0} erfolgreich aktualisiert!"
 
 #: hrms/hr/doctype/staffing_plan/staffing_plan.py:129
 msgid "{0} vacancies and {1} budget for {2} already planned for subsidiary companies of {3}. You can only plan for upto {4} vacancies and and budget {5} as per staffing plan {6} for parent company {3}."
