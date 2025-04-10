@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-03-30 09:34+0000\n"
-"PO-Revision-Date: 2025-04-09 10:25\n"
+"PO-Revision-Date: 2025-04-10 10:21\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Persian\n"
 "MIME-Version: 1.0\n"
@@ -2882,7 +2882,7 @@ msgstr ""
 #: hrms/hr/doctype/employee_feedback_criteria/employee_feedback_criteria.json
 #: hrms/hr/doctype/employee_feedback_rating/employee_feedback_rating.json
 msgid "Criteria"
-msgstr "شاخص"
+msgstr "معیارها"
 
 #. Description of the 'Rating Criteria' (Table) field in DocType 'Appraisal
 #. Template'
@@ -6074,7 +6074,7 @@ msgstr ""
 
 #: hrms/payroll/doctype/employee_tax_exemption_proof_submission/employee_tax_exemption_proof_submission.js:47
 msgid "Get Details From Declaration"
-msgstr "جزئیات را از اعلامیه دریافت کنید"
+msgstr "دریافت جزئیات از اعلامیه"
 
 #. Label of the get_employees (Button) field in DocType 'Appraisal Cycle'
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.json
@@ -6085,7 +6085,7 @@ msgstr "استخدام کارمندان"
 #. Label of the get_job_requisitions (Button) field in DocType 'Staffing Plan'
 #: hrms/hr/doctype/staffing_plan/staffing_plan.json
 msgid "Get Job Requisitions"
-msgstr "نیازمندی های شغلی را دریافت کنید"
+msgstr "دریافت نیازمندی های شغلی"
 
 #. Label of the get_template (Button) field in DocType 'Upload Attendance'
 #: hrms/hr/doctype/upload_attendance/upload_attendance.json
@@ -9765,7 +9765,7 @@ msgstr ""
 #. Label of the pending_amount (Currency) field in DocType 'Employee Advance'
 #: hrms/hr/doctype/employee_advance/employee_advance.json
 msgid "Pending Amount"
-msgstr "مبلغ معلق"
+msgstr "مبلغ در انتظار"
 
 #: hrms/hr/doctype/full_and_final_statement/full_and_final_statement.py:69
 msgid "Pending Asset Returns"
@@ -9777,11 +9777,11 @@ msgstr "FnF در انتظار"
 
 #: hrms/hr/report/employee_exits/employee_exits.py:221
 msgid "Pending Interviews"
-msgstr "مصاحبه های معلق"
+msgstr "مصاحبه های در انتظار"
 
 #: hrms/hr/report/employee_exits/employee_exits.py:233
 msgid "Pending Questionnaires"
-msgstr "پرسشنامه های معلق"
+msgstr "پرسشنامه های در انتظار"
 
 #. Label of the percent (Percent) field in DocType 'Income Tax Slab Other
 #. Charges'
