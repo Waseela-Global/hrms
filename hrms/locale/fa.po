@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-03-30 09:34+0000\n"
-"PO-Revision-Date: 2025-04-10 10:21\n"
+"PO-Revision-Date: 2025-04-11 10:30\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Persian\n"
 "MIME-Version: 1.0\n"
@@ -5031,7 +5031,7 @@ msgstr "تعداد مرخصی هایی را که می‌خواهید برای د
 
 #: frontend/src/components/FormField.vue:42
 msgid "Enter {0}"
-msgstr ""
+msgstr "{0}را وارد کنید"
 
 #: frontend/src/components/CheckInPanel.vue:182
 #: frontend/src/components/FormView.vue:530
