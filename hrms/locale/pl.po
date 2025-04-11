@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-03-30 09:34+0000\n"
-"PO-Revision-Date: 2025-04-05 09:07\n"
+"PO-Revision-Date: 2025-04-11 10:30\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Polish\n"
 "MIME-Version: 1.0\n"
@@ -1428,7 +1428,7 @@ msgstr ""
 
 #: frontend/src/components/FileUploaderView.vue:53
 msgid "Are you sure you want to delete the attachment"
-msgstr ""
+msgstr "Czy jesteś pewien, że chcesz usunąć ten załącznik"
 
 #: frontend/src/components/FormView.vue:223
 msgid "Are you sure you want to delete the {0}"
@@ -2622,7 +2622,7 @@ msgstr ""
 #: frontend/src/components/FormView.vue:251
 #: frontend/src/components/FormView.vue:282
 msgid "Confirm"
-msgstr ""
+msgstr "Potwierdź"
 
 #: frontend/src/components/CheckInPanel.vue:73
 msgid "Confirm {0}"
@@ -2878,7 +2878,7 @@ msgstr ""
 
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.py:240
 msgid "Creating {0}..."
-msgstr ""
+msgstr "Tworzenie {0}..."
 
 #: hrms/hr/report/leave_ledger/leave_ledger.py:41
 msgid "Creation Date"
@@ -3729,7 +3729,7 @@ msgstr ""
 
 #: frontend/src/components/WorkflowActionSheet.vue:111
 msgid "Dismiss"
-msgstr ""
+msgstr "Oddalić"
 
 #. Label of the pro_rata_dispensed_amount (Currency) field in DocType 'Employee
 #. Benefit Application'
@@ -8213,7 +8213,7 @@ msgstr ""
 
 #: frontend/src/views/Login.vue:34
 msgid "Login"
-msgstr ""
+msgstr "Zaloguj się"
 
 #: frontend/src/views/InvalidEmployee.vue:7
 msgid "Login Failed"
@@ -8806,7 +8806,7 @@ msgstr ""
 
 #: frontend/src/components/FormView.vue:53
 msgid "New {0}"
-msgstr ""
+msgstr "Nowy rekord \"{0}\""
 
 #. Option for the 'Is Active' (Select) field in DocType 'Salary Structure'
 #. Option for the 'Is Default' (Select) field in DocType 'Salary Structure'
@@ -9058,7 +9058,7 @@ msgstr ""
 
 #: frontend/src/views/Notifications.vue:17
 msgid "Notifications"
-msgstr ""
+msgstr "Powiadomienia"
 
 #. Label of the notify_users_by_email (Check) field in DocType 'Employee
 #. Onboarding'
@@ -9490,7 +9490,7 @@ msgstr ""
 
 #: frontend/src/views/Login.vue:22
 msgid "Password"
-msgstr ""
+msgstr "Hasło"
 
 #. Label of the password_policy (Data) field in DocType 'Payroll Settings'
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
@@ -10713,7 +10713,7 @@ msgstr ""
 
 #: frontend/src/components/FormView.vue:43
 msgid "Reload"
-msgstr ""
+msgstr "Przeładuj"
 
 #. Label of the remaining_benefit (Currency) field in DocType 'Employee Benefit
 #. Application'
@@ -10880,7 +10880,7 @@ msgstr ""
 
 #: frontend/src/views/Login.vue:57
 msgid "Reset Password"
-msgstr ""
+msgstr "Resetowanie hasła"
 
 #. Label of the resignation_letter_date (Date) field in DocType 'Employee
 #. Separation'
@@ -11629,7 +11629,7 @@ msgstr ""
 #: frontend/src/components/FormField.vue:19
 #: frontend/src/components/FormField.vue:116 frontend/src/components/Link.vue:6
 msgid "Select {0}"
-msgstr ""
+msgstr "Wybierz {0}"
 
 #. Label of the self_appraisal_tab (Tab Break) field in DocType 'Appraisal'
 #: hrms/hr/doctype/appraisal/appraisal.json
@@ -14016,7 +14016,7 @@ msgstr ""
 
 #: frontend/src/components/Holidays.vue:10
 msgid "View All"
-msgstr ""
+msgstr "Pokaż wszystkie"
 
 #: hrms/hr/doctype/appraisal/appraisal.js:56
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.js:22
@@ -14034,7 +14034,7 @@ msgstr ""
 #: frontend/src/components/RequestList.vue:27
 #: frontend/src/views/expense_claim/Dashboard.vue:41
 msgid "View List"
-msgstr ""
+msgstr "Pokaż listę"
 
 #: frontend/src/views/Home.vue:57
 msgid "View Salary Slips"
@@ -14488,7 +14488,7 @@ msgstr ""
 
 #: frontend/src/components/FormView.vue:516
 msgid "{0} created successfully!"
-msgstr ""
+msgstr "{0} Utworzono z powodzeniem!"
 
 #: frontend/src/components/FormView.vue:571
 msgid "{0} deleted successfully!"
