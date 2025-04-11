@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-03-30 09:34+0000\n"
-"PO-Revision-Date: 2025-04-05 09:07\n"
+"PO-Revision-Date: 2025-04-11 10:30\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
@@ -5031,7 +5031,7 @@ msgstr ""
 
 #: frontend/src/components/FormField.vue:42
 msgid "Enter {0}"
-msgstr ""
+msgstr "Adja meg: {0}"
 
 #: frontend/src/components/CheckInPanel.vue:182
 #: frontend/src/components/FormView.vue:530
@@ -8283,7 +8283,7 @@ msgstr ""
 
 #: frontend/src/views/Notifications.vue:49
 msgid "Mark all as read"
-msgstr ""
+msgstr "Mindegyik megjelölése olvasottként"
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.js:58
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.js:62
