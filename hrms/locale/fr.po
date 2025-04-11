@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-03-30 09:34+0000\n"
-"PO-Revision-Date: 2025-04-05 09:07\n"
+"PO-Revision-Date: 2025-04-11 10:30\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -5056,7 +5056,7 @@ msgstr "Entrez le nombre de congés que vous voulez allouer pour la période."
 
 #: frontend/src/components/FormField.vue:42
 msgid "Enter {0}"
-msgstr ""
+msgstr "Entrez {0}"
 
 #: frontend/src/components/CheckInPanel.vue:182
 #: frontend/src/components/FormView.vue:530
@@ -8308,7 +8308,7 @@ msgstr "Marquer la présence automatique sur les jours fériés"
 
 #: frontend/src/views/Notifications.vue:49
 msgid "Mark all as read"
-msgstr ""
+msgstr "Marquer tout comme lu"
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.js:58
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.js:62
@@ -10275,7 +10275,7 @@ msgstr "Compétence"
 
 #: frontend/src/views/Profile.vue:17
 msgid "Profile"
-msgstr ""
+msgstr "Profil"
 
 #: hrms/hr/report/project_profitability/project_profitability.py:183
 msgid "Profit"
