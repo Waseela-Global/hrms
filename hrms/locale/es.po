@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
-"POT-Creation-Date: 2025-03-30 09:34+0000\n"
-"PO-Revision-Date: 2025-04-05 09:07\n"
+"POT-Creation-Date: 2025-04-13 09:36+0000\n"
+"PO-Revision-Date: 2025-04-14 11:05\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -335,6 +335,8 @@ msgid "Abbr"
 msgstr "Abreviatura"
 
 #. Option for the 'Status' (Select) field in DocType 'Attendance'
+#. Option for the 'Status for Other Half' (Select) field in DocType
+#. 'Attendance'
 #. Option for the 'Status' (Select) field in DocType 'Employee Attendance Tool'
 #. Option for the 'Attendance' (Select) field in DocType 'Training Event
 #. Employee'
@@ -589,7 +591,7 @@ msgstr "Costo real"
 msgid "Actual Encashable Days"
 msgstr "Días reales cobrables"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:401
+#: hrms/hr/doctype/leave_application/leave_application.py:421
 msgid "Actual balances aren't available because the leave application spans over different leave allocations. You can still apply for leaves which would be compensated during the next allocation."
 msgstr ""
 
@@ -1617,7 +1619,7 @@ msgstr "Asistencia actualizada"
 msgid "Attendance Warnings"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:55
+#: hrms/hr/doctype/attendance/attendance.py:59
 msgid "Attendance date {0} can not be less than employee {1}'s joining date: {2}"
 msgstr ""
 
@@ -1625,15 +1627,15 @@ msgstr ""
 msgid "Attendance for all the employees under this criteria has been marked already."
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:108
+#: hrms/hr/doctype/attendance/attendance.py:113
 msgid "Attendance for employee {0} is already marked for an overlapping shift {1}: {2}"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:67
+#: hrms/hr/doctype/attendance/attendance.py:71
 msgid "Attendance for employee {0} is already marked for the date {1}: {2}"
 msgstr ""
 
-#: hrms/hr/doctype/leave_application/leave_application.py:565
+#: hrms/hr/doctype/leave_application/leave_application.py:586
 msgid "Attendance for employee {0} is already marked for the following dates: {1}"
 msgstr ""
 
@@ -2109,11 +2111,11 @@ msgstr ""
 msgid "Cannot create or change transactions against an Appraisal Cycle with status {0}."
 msgstr ""
 
-#: hrms/hr/doctype/leave_application/leave_application.py:582
+#: hrms/hr/doctype/leave_application/leave_application.py:603
 msgid "Cannot find active Leave Period"
 msgstr "No se puede encontrar el Período de permiso activo"
 
-#: hrms/hr/doctype/attendance/attendance.py:142
+#: hrms/hr/doctype/attendance/attendance.py:147
 msgid "Cannot mark attendance for an Inactive employee {0}"
 msgstr ""
 
@@ -3007,7 +3009,7 @@ msgstr ""
 msgid "Current Work Experience"
 msgstr ""
 
-#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:98
+#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:99
 msgid "Currently, there is no {0} leave period for this date to create/update leave allocation."
 msgstr ""
 
@@ -3786,7 +3788,7 @@ msgstr "Borrador"
 msgid "Driver"
 msgstr "Conductor"
 
-#: hrms/hr/doctype/attendance/attendance.py:72
+#: hrms/hr/doctype/attendance/attendance.py:76
 msgid "Duplicate Attendance"
 msgstr ""
 
@@ -3965,7 +3967,7 @@ msgstr "Correo electrónico enviado a"
 msgid "Email Template"
 msgstr "Plantilla de Correo Electrónico"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:680
+#: hrms/hr/doctype/leave_application/leave_application.py:701
 msgid "Email sent to {0}"
 msgstr "Correo electrónico enviado a {0}"
 
@@ -4757,11 +4759,11 @@ msgstr ""
 msgid "Employee records are created using the selected option"
 msgstr ""
 
-#: hrms/hr/doctype/shift_type/shift_type.py:241
+#: hrms/hr/doctype/shift_type/shift_type.py:240
 msgid "Employee was marked Absent due to missing Employee Checkins."
 msgstr ""
 
-#: hrms/hr/doctype/employee_checkin/employee_checkin.py:244
+#: hrms/hr/doctype/employee_checkin/employee_checkin.py:262
 msgid "Employee was marked Absent for not meeting the working hours threshold."
 msgstr ""
 
@@ -4781,7 +4783,7 @@ msgstr "El empleado {0} ya presentó una solicitud {1} para el período de nómi
 msgid "Employee {0} has already applied for Shift {1}: {2} that overlaps within this period"
 msgstr ""
 
-#: hrms/hr/doctype/leave_application/leave_application.py:455
+#: hrms/hr/doctype/leave_application/leave_application.py:475
 msgid "Employee {0} has already applied for {1} between {2} and {3} : {4}"
 msgstr ""
 
@@ -4789,11 +4791,11 @@ msgstr ""
 msgid "Employee {0} has no maximum benefit amount"
 msgstr "El Empleado {0} no tiene una cantidad de beneficio máximo"
 
-#: hrms/hr/doctype/attendance/attendance.py:199
+#: hrms/hr/doctype/attendance/attendance.py:204
 msgid "Employee {0} is not active or does not exist"
 msgstr "El empleado {0} no está activo o no existe"
 
-#: hrms/hr/doctype/attendance/attendance.py:177
+#: hrms/hr/doctype/attendance/attendance.py:182
 msgid "Employee {0} is on Leave on {1}"
 msgstr "El empleado {0} está de baja en {1}"
 
@@ -4801,7 +4803,7 @@ msgstr "El empleado {0} está de baja en {1}"
 msgid "Employee {0} not found in Training Event Participants."
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:170
+#: hrms/hr/doctype/attendance/attendance.py:175
 msgid "Employee {0} on Half day on {1}"
 msgstr "Empleado {0} del medio día del {1}"
 
@@ -5861,7 +5863,6 @@ msgstr "Frecuencia"
 msgid "Friday"
 msgstr "Viernes"
 
-#: hrms/payroll/report/salary_register/salary_register.html:8
 #: hrms/payroll/report/salary_register/salary_register.js:8
 msgid "From"
 msgstr "Desde"
@@ -5959,6 +5960,10 @@ msgstr "La fecha de inicio no puede ser menor que la fecha de incorporación del
 
 #: hrms/hr/doctype/leave_type/leave_type.js:42
 msgid "From here, you can enable encashment for the balance leaves."
+msgstr ""
+
+#: hrms/payroll/report/salary_register/salary_register.html:8
+msgid "From {0} to {1}"
 msgstr ""
 
 #. Label of the from_year (Int) field in DocType 'Gratuity Rule Slab'
@@ -6580,8 +6585,8 @@ msgstr "Configuraciones de contratación"
 msgid "Hold"
 msgstr "Mantener"
 
-#: hrms/hr/doctype/attendance/attendance.py:276
-#: hrms/hr/doctype/leave_application/leave_application.py:1329
+#: hrms/hr/doctype/attendance/attendance.py:281
+#: hrms/hr/doctype/leave_application/leave_application.py:1350
 #: hrms/hr/report/employees_working_on_a_holiday/employees_working_on_a_holiday.py:46
 msgid "Holiday"
 msgstr "Vacaciones"
@@ -6982,11 +6987,11 @@ msgstr ""
 msgid "Install Frappe HR"
 msgstr ""
 
-#: hrms/hr/doctype/leave_application/leave_application.py:414
+#: hrms/hr/doctype/leave_application/leave_application.py:434
 msgid "Insufficient Balance"
 msgstr ""
 
-#: hrms/hr/doctype/leave_application/leave_application.py:412
+#: hrms/hr/doctype/leave_application/leave_application.py:432
 msgid "Insufficient leave balance for Leave Type {0}"
 msgstr ""
 
@@ -7711,7 +7716,7 @@ msgstr "Dejar asignaciones"
 msgid "Leave Application"
 msgstr "Solicitud de vacaciones"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:735
+#: hrms/hr/doctype/leave_application/leave_application.py:756
 msgid "Leave Application period cannot be across two non-consecutive leave allocations {0} and {1}."
 msgstr ""
 
@@ -7789,7 +7794,7 @@ msgstr "Fechas de Lista de Bloqueo de Vacaciones"
 msgid "Leave Block List Name"
 msgstr "Nombre de la Lista de Bloqueo de Vacaciones"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:1305
+#: hrms/hr/doctype/leave_application/leave_application.py:1326
 msgid "Leave Blocked"
 msgstr "Vacaciones Bloqueadas"
 
@@ -8004,7 +8009,7 @@ msgstr "Las vacaciones no se pueden asignar antes de {0}, ya que el saldo de las
 msgid "Leave cannot be applied/cancelled before {0}, as leave balance has already been carry-forwarded in the future leave allocation record {1}"
 msgstr "La licencia no se puede solicitar/cancelar antes de {0}, ya que el saldo de vacaciones ya se ha trasladado al registro de asignación de vacaciones futuras {1}"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:482
+#: hrms/hr/doctype/leave_application/leave_application.py:502
 msgid "Leave of type {0} cannot be longer than {1}."
 msgstr ""
 
@@ -8414,7 +8419,7 @@ msgstr "Máximo transporte de hojas enviadas"
 msgid "Maximum Consecutive Leaves Allowed"
 msgstr ""
 
-#: hrms/hr/doctype/leave_application/leave_application.py:492
+#: hrms/hr/doctype/leave_application/leave_application.py:512
 msgid "Maximum Consecutive Leaves Exceeded"
 msgstr ""
 
@@ -8818,7 +8823,7 @@ msgstr ""
 msgid "No Interview has been scheduled."
 msgstr ""
 
-#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:105
+#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:106
 msgid "No Leave Period Found"
 msgstr ""
 
@@ -8914,7 +8919,7 @@ msgstr ""
 msgid "No items selected"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:185
+#: hrms/hr/doctype/attendance/attendance.py:190
 msgid "No leave record found for employee {0} on {1}"
 msgstr "No se encontró ningún registro de vacaciones para el empleado {0} el {1}"
 
@@ -9264,7 +9269,7 @@ msgstr ""
 msgid "Opening closed."
 msgstr ""
 
-#: hrms/hr/doctype/leave_application/leave_application.py:588
+#: hrms/hr/doctype/leave_application/leave_application.py:609
 msgid "Optional Holiday List not set for leave period {0}"
 msgstr "Lista de vacaciones opcional no establecida para el período de vacaciones {0}"
 
@@ -9344,7 +9349,7 @@ msgstr ""
 msgid "Overlapping Attendance Request"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:113
+#: hrms/hr/doctype/attendance/attendance.py:118
 msgid "Overlapping Shift Attendance"
 msgstr ""
 
@@ -9860,7 +9865,7 @@ msgstr ""
 msgid "Please confirm once you have completed your training"
 msgstr "Por favor confirme una vez que haya completado su formación"
 
-#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:101
+#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:102
 msgid "Please create a new {0} for the date {1} first."
 msgstr ""
 
@@ -9930,7 +9935,7 @@ msgstr ""
 msgid "Please select a csv file"
 msgstr "Por favor, seleccione un archivo csv"
 
-#: hrms/hr/doctype/attendance/attendance.py:326
+#: hrms/hr/doctype/attendance/attendance.py:333
 msgid "Please select a date."
 msgstr ""
 
@@ -10016,11 +10021,11 @@ msgstr ""
 msgid "Please set account in Salary Component {0}"
 msgstr ""
 
-#: hrms/hr/doctype/leave_application/leave_application.py:643
+#: hrms/hr/doctype/leave_application/leave_application.py:664
 msgid "Please set default template for Leave Approval Notification in HR Settings."
 msgstr "Por favor, configure la plantilla predeterminada para la Notifiación de Aprobación de Vacaciones en Configuración de Recursos Humanos."
 
-#: hrms/hr/doctype/leave_application/leave_application.py:618
+#: hrms/hr/doctype/leave_application/leave_application.py:639
 msgid "Please set default template for Leave Status Notification in HR Settings."
 msgstr "Configure la plantilla predeterminada para la Notifiación de Estado de Vacaciones en configuración de Recursos Humanos."
 
@@ -10131,6 +10136,8 @@ msgid "Preferred Area for Lodging"
 msgstr "Área preferida para alojamiento"
 
 #. Option for the 'Status' (Select) field in DocType 'Attendance'
+#. Option for the 'Status for Other Half' (Select) field in DocType
+#. 'Attendance'
 #. Option for the 'Status' (Select) field in DocType 'Employee Attendance Tool'
 #. Option for the 'Attendance' (Select) field in DocType 'Training Event
 #. Employee'
@@ -10171,7 +10178,7 @@ msgid "Print Heading"
 msgstr "Imprimir Encabezado"
 
 #: hrms/payroll/report/salary_register/salary_register.html:40
-msgid "Printed On"
+msgid "Printed On {0}"
 msgstr ""
 
 #. Label of the printing_details (Section Break) field in DocType 'Job Offer'
@@ -10421,7 +10428,6 @@ msgstr ""
 #. Label of the rating (Rating) field in DocType 'Employee Feedback Rating'
 #. Label of the rating (Rating) field in DocType 'Skill Assessment'
 #: hrms/hr/doctype/employee_feedback_rating/employee_feedback_rating.json
-#: hrms/hr/doctype/interview/interview.js:194
 #: hrms/hr/doctype/job_applicant/job_applicant_dashboard.html:11
 #: hrms/hr/doctype/skill_assessment/skill_assessment.json
 msgid "Rating"
@@ -10478,7 +10484,7 @@ msgstr ""
 msgid "Reason for Withholding Salary"
 msgstr ""
 
-#: hrms/hr/doctype/employee_checkin/employee_checkin.py:334
+#: hrms/hr/doctype/employee_checkin/employee_checkin.py:369
 msgid "Reason for skipping auto attendance:"
 msgstr ""
 
@@ -10572,7 +10578,7 @@ msgid "Reference Document Type"
 msgstr "Tipo de Documento de Referencia"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:371
-#: hrms/hr/doctype/leave_application/leave_application.py:486
+#: hrms/hr/doctype/leave_application/leave_application.py:506
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:137
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:91
 msgid "Reference: {0}"
@@ -11415,7 +11421,7 @@ msgstr ""
 msgid "Salary Withholding {0} already exists for employee {1} for the selected period"
 msgstr ""
 
-#: hrms/hr/doctype/leave_application/leave_application.py:327
+#: hrms/hr/doctype/leave_application/leave_application.py:347
 msgid "Salary already processed for period between {0} and {1}, Leave application period cannot be between this date range."
 msgstr "Salario ya procesado para el período entre {0} y {1}, Deja período de aplicación no puede estar entre este intervalo de fechas."
 
@@ -11636,7 +11642,7 @@ msgstr ""
 msgid "Self-Study"
 msgstr "Autoestudio"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:825
+#: hrms/hr/doctype/leave_application/leave_application.py:846
 msgid "Self-approval for leaves is not allowed"
 msgstr ""
 
@@ -12143,7 +12149,7 @@ msgstr "Asignación única"
 #: hrms/hr/doctype/designation_skill/designation_skill.json
 #: hrms/hr/doctype/employee_skill/employee_skill.json
 #: hrms/hr/doctype/expected_skill_set/expected_skill_set.json
-#: hrms/hr/doctype/interview/interview.js:189 hrms/hr/doctype/skill/skill.json
+#: hrms/hr/doctype/skill/skill.json
 #: hrms/hr/doctype/skill_assessment/skill_assessment.json
 msgid "Skill"
 msgstr "Habilidad"
@@ -12386,6 +12392,11 @@ msgstr "Componente estadístico"
 #: hrms/payroll/doctype/salary_withholding/salary_withholding.json
 msgid "Status"
 msgstr "Estado"
+
+#. Label of the half_day_status (Select) field in DocType 'Attendance'
+#: hrms/hr/doctype/attendance/attendance.json
+msgid "Status for Other Half"
+msgstr ""
 
 #: hrms/setup.py:401
 msgid "Stock Options"
@@ -12770,11 +12781,11 @@ msgstr ""
 msgid "The day of the month when leaves should be allocated"
 msgstr ""
 
-#: hrms/hr/doctype/leave_application/leave_application.py:370
+#: hrms/hr/doctype/leave_application/leave_application.py:390
 msgid "The day(s) on which you are applying for leave are holidays. You need not apply for leave."
 msgstr "El día o días en los que solicita las vacaciones son festivos. No es necesario que las solicite."
 
-#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:64
+#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:65
 msgid "The days between {0} to {1} are not valid holidays."
 msgstr ""
 
@@ -12860,7 +12871,7 @@ msgstr ""
 msgid "This check-in is outside assigned shift hours and will not be considered for attendance. If a shift is assigned, adjust its time window and Fetch Shift again."
 msgstr ""
 
-#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:97
+#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:98
 msgid "This compensatory leave will be applicable from {0}."
 msgstr ""
 
@@ -13686,11 +13697,11 @@ msgstr ""
 msgid "Unlink Payment"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:219
+#: hrms/hr/doctype/attendance/attendance.py:224
 msgid "Unlinked Attendance record from Employee Checkins: {}"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:222
+#: hrms/hr/doctype/attendance/attendance.py:227
 msgid "Unlinked logs"
 msgstr ""
 
@@ -14034,7 +14045,7 @@ msgstr ""
 msgid "Walk In"
 msgstr "Entrar"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:409
+#: hrms/hr/doctype/leave_application/leave_application.py:429
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:153
 #: hrms/payroll/doctype/salary_component/salary_component.py:56
 #: hrms/payroll/doctype/salary_structure/salary_structure.js:321
@@ -14043,15 +14054,15 @@ msgstr "Entrar"
 msgid "Warning"
 msgstr "Advertencia"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:397
+#: hrms/hr/doctype/leave_application/leave_application.py:417
 msgid "Warning: Insufficient leave balance for Leave Type {0} in this allocation."
 msgstr ""
 
-#: hrms/hr/doctype/leave_application/leave_application.py:405
+#: hrms/hr/doctype/leave_application/leave_application.py:425
 msgid "Warning: Insufficient leave balance for Leave Type {0}."
 msgstr ""
 
-#: hrms/hr/doctype/leave_application/leave_application.py:343
+#: hrms/hr/doctype/leave_application/leave_application.py:363
 msgid "Warning: Leave application contains following block dates"
 msgstr "Advertencia: La solicitud de ausencia contiene las siguientes fechas bloqueadas"
 
@@ -14274,11 +14285,11 @@ msgstr "Si"
 msgid "Yes, Proceed"
 msgstr ""
 
-#: hrms/hr/doctype/leave_application/leave_application.py:353
+#: hrms/hr/doctype/leave_application/leave_application.py:373
 msgid "You are not authorized to approve leaves on Block Dates"
 msgstr "Usted no está autorizado para aprobar ausencias en fechas bloqueadas"
 
-#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:58
+#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:59
 msgid "You are not present all day(s) between compensatory leave request days"
 msgstr "Usted no está presente todos los días entre los días de solicitud de permiso compensatorio"
 
@@ -14322,7 +14333,7 @@ msgstr ""
 msgid "You must be within {0} meters of your shift location to check in."
 msgstr ""
 
-#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:52
+#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:53
 msgid "You were only present for Half Day on {}. Cannot apply for a full day compensatory leave"
 msgstr ""
 
@@ -14334,7 +14345,7 @@ msgstr ""
 msgid "Your password has expired. Please reset your password to continue"
 msgstr ""
 
-#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:100
+#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:101
 msgid "active"
 msgstr "activo"
 
@@ -14399,10 +14410,6 @@ msgstr "comentarios"
 #: frontend/src/components/RequestActionSheet.vue:283
 msgid "submitted"
 msgstr "validado"
-
-#: hrms/payroll/report/salary_register/salary_register.html:8
-msgid "to"
-msgstr "a"
 
 #: hrms/payroll/doctype/salary_component/salary_component.py:95
 msgid "via Salary Component sync"
@@ -14488,7 +14495,7 @@ msgstr ""
 msgid "{0} is mandatory"
 msgstr "{0} es obligatorio"
 
-#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:69
+#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:70
 msgid "{0} is not a holiday."
 msgstr ""
 
@@ -14496,7 +14503,7 @@ msgstr ""
 msgid "{0} is not allowed to submit Interview Feedback for the Interview: {1}"
 msgstr ""
 
-#: hrms/hr/doctype/leave_application/leave_application.py:596
+#: hrms/hr/doctype/leave_application/leave_application.py:617
 msgid "{0} is not in Optional Holiday List"
 msgstr "{0} no está en la Lista de Vacaciones opcional"
 
@@ -14625,7 +14632,7 @@ msgstr ""
 msgid "{} Unclaimed"
 msgstr ""
 
-#: hrms/hr/doctype/employee_checkin/employee_checkin.py:254
+#: hrms/hr/doctype/employee_checkin/employee_checkin.py:272
 msgid "{} is an invalid Attendance Status."
 msgstr "{} es un estado de asistencia no válido."
 
