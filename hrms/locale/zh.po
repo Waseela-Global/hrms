@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
-"POT-Creation-Date: 2025-03-30 09:34+0000\n"
-"PO-Revision-Date: 2025-04-05 09:07\n"
+"POT-Creation-Date: 2025-04-13 09:36+0000\n"
+"PO-Revision-Date: 2025-04-14 11:05\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -360,6 +360,8 @@ msgid "Abbr"
 msgstr "简称"
 
 #. Option for the 'Status' (Select) field in DocType 'Attendance'
+#. Option for the 'Status for Other Half' (Select) field in DocType
+#. 'Attendance'
 #. Option for the 'Status' (Select) field in DocType 'Employee Attendance Tool'
 #. Option for the 'Attendance' (Select) field in DocType 'Training Event
 #. Employee'
@@ -614,7 +616,7 @@ msgstr "实际成本"
 msgid "Actual Encashable Days"
 msgstr "实际可兑换天数"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:401
+#: hrms/hr/doctype/leave_application/leave_application.py:421
 msgid "Actual balances aren't available because the leave application spans over different leave allocations. You can still apply for leaves which would be compensated during the next allocation."
 msgstr "由于请假申请跨越不同假期分配，当前无法显示实际余额。您仍可申请假期，差额将在下次分配时补足。"
 
@@ -1642,7 +1644,7 @@ msgstr "考勤已更新"
 msgid "Attendance Warnings"
 msgstr "考勤预警"
 
-#: hrms/hr/doctype/attendance/attendance.py:55
+#: hrms/hr/doctype/attendance/attendance.py:59
 msgid "Attendance date {0} can not be less than employee {1}'s joining date: {2}"
 msgstr "考勤日期{0}不得早于员工{1}的入职日期{2}"
 
@@ -1650,15 +1652,15 @@ msgstr "考勤日期{0}不得早于员工{1}的入职日期{2}"
 msgid "Attendance for all the employees under this criteria has been marked already."
 msgstr "符合条件的所有员工考勤已记录"
 
-#: hrms/hr/doctype/attendance/attendance.py:108
+#: hrms/hr/doctype/attendance/attendance.py:113
 msgid "Attendance for employee {0} is already marked for an overlapping shift {1}: {2}"
 msgstr "员工{0}的考勤已记录在重叠班次{1}：{2}中"
 
-#: hrms/hr/doctype/attendance/attendance.py:67
+#: hrms/hr/doctype/attendance/attendance.py:71
 msgid "Attendance for employee {0} is already marked for the date {1}: {2}"
 msgstr "员工{0}在日期{1}的考勤已记录：{2}"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:565
+#: hrms/hr/doctype/leave_application/leave_application.py:586
 msgid "Attendance for employee {0} is already marked for the following dates: {1}"
 msgstr "员工{0}在以下日期已有考勤记录：{1}"
 
@@ -2134,11 +2136,11 @@ msgstr "无法为已关闭的职位空缺创建申请人"
 msgid "Cannot create or change transactions against an Appraisal Cycle with status {0}."
 msgstr "无法对状态为{0}的考核周期创建或修改事务"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:582
+#: hrms/hr/doctype/leave_application/leave_application.py:603
 msgid "Cannot find active Leave Period"
 msgstr "未找到有效假期周期"
 
-#: hrms/hr/doctype/attendance/attendance.py:142
+#: hrms/hr/doctype/attendance/attendance.py:147
 msgid "Cannot mark attendance for an Inactive employee {0}"
 msgstr "无法为停用员工{0}记录考勤"
 
@@ -3032,7 +3034,7 @@ msgstr "当前税级"
 msgid "Current Work Experience"
 msgstr "当前工作经验"
 
-#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:98
+#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:99
 msgid "Currently, there is no {0} leave period for this date to create/update leave allocation."
 msgstr "当前没有适用于该日期的{0}假期周期用于创建/更新假期分配"
 
@@ -3811,7 +3813,7 @@ msgstr "草稿"
 msgid "Driver"
 msgstr "驾驶员"
 
-#: hrms/hr/doctype/attendance/attendance.py:72
+#: hrms/hr/doctype/attendance/attendance.py:76
 msgid "Duplicate Attendance"
 msgstr "重复考勤记录"
 
@@ -3990,7 +3992,7 @@ msgstr "邮件接收人"
 msgid "Email Template"
 msgstr "邮件模板"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:680
+#: hrms/hr/doctype/leave_application/leave_application.py:701
 msgid "Email sent to {0}"
 msgstr "邮件已发送至{0}"
 
@@ -4782,11 +4784,11 @@ msgstr "员工姓名"
 msgid "Employee records are created using the selected option"
 msgstr "员工档案将按所选选项创建"
 
-#: hrms/hr/doctype/shift_type/shift_type.py:241
+#: hrms/hr/doctype/shift_type/shift_type.py:240
 msgid "Employee was marked Absent due to missing Employee Checkins."
 msgstr "因缺少签到记录，员工标记为缺勤"
 
-#: hrms/hr/doctype/employee_checkin/employee_checkin.py:244
+#: hrms/hr/doctype/employee_checkin/employee_checkin.py:262
 msgid "Employee was marked Absent for not meeting the working hours threshold."
 msgstr "因未达到工时阈值，员工标记为缺勤"
 
@@ -4806,7 +4808,7 @@ msgstr "员工{0}已提交薪资期间{2}的申请{1}"
 msgid "Employee {0} has already applied for Shift {1}: {2} that overlaps within this period"
 msgstr "员工{0}已申请与本期间重叠的班次{1}:{2}"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:455
+#: hrms/hr/doctype/leave_application/leave_application.py:475
 msgid "Employee {0} has already applied for {1} between {2} and {3} : {4}"
 msgstr "员工{0}已在{2}至{3}期间申请{1}:{4}"
 
@@ -4814,11 +4816,11 @@ msgstr "员工{0}已在{2}至{3}期间申请{1}:{4}"
 msgid "Employee {0} has no maximum benefit amount"
 msgstr "员工{0}未设置最高福利金额"
 
-#: hrms/hr/doctype/attendance/attendance.py:199
+#: hrms/hr/doctype/attendance/attendance.py:204
 msgid "Employee {0} is not active or does not exist"
 msgstr "员工{0}未激活或不存在"
 
-#: hrms/hr/doctype/attendance/attendance.py:177
+#: hrms/hr/doctype/attendance/attendance.py:182
 msgid "Employee {0} is on Leave on {1}"
 msgstr "员工{0}在{1}请假"
 
@@ -4826,7 +4828,7 @@ msgstr "员工{0}在{1}请假"
 msgid "Employee {0} not found in Training Event Participants."
 msgstr "未在培训参与者中找到员工{0}"
 
-#: hrms/hr/doctype/attendance/attendance.py:170
+#: hrms/hr/doctype/attendance/attendance.py:175
 msgid "Employee {0} on Half day on {1}"
 msgstr "员工{0}在{1}为半日假"
 
@@ -5886,7 +5888,6 @@ msgstr "频率"
 msgid "Friday"
 msgstr "周五"
 
-#: hrms/payroll/report/salary_register/salary_register.html:8
 #: hrms/payroll/report/salary_register/salary_register.js:8
 msgid "From"
 msgstr "从"
@@ -5985,6 +5986,10 @@ msgstr "起始日期不得早于员工入职日期"
 #: hrms/hr/doctype/leave_type/leave_type.js:42
 msgid "From here, you can enable encashment for the balance leaves."
 msgstr "在此可启用剩余假期的折现功能"
+
+#: hrms/payroll/report/salary_register/salary_register.html:8
+msgid "From {0} to {1}"
+msgstr ""
 
 #. Label of the from_year (Int) field in DocType 'Gratuity Rule Slab'
 #: hrms/payroll/doctype/gratuity_rule_slab/gratuity_rule_slab.json
@@ -6605,8 +6610,8 @@ msgstr "招聘设置"
 msgid "Hold"
 msgstr "挂起"
 
-#: hrms/hr/doctype/attendance/attendance.py:276
-#: hrms/hr/doctype/leave_application/leave_application.py:1329
+#: hrms/hr/doctype/attendance/attendance.py:281
+#: hrms/hr/doctype/leave_application/leave_application.py:1350
 #: hrms/hr/report/employees_working_on_a_holiday/employees_working_on_a_holiday.py:46
 msgid "Holiday"
 msgstr "节假日"
@@ -7007,11 +7012,11 @@ msgstr "安装"
 msgid "Install Frappe HR"
 msgstr "安装Frappe HR系统"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:414
+#: hrms/hr/doctype/leave_application/leave_application.py:434
 msgid "Insufficient Balance"
 msgstr "余额不足"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:412
+#: hrms/hr/doctype/leave_application/leave_application.py:432
 msgid "Insufficient leave balance for Leave Type {0}"
 msgstr "假期类型{0}余额不足"
 
@@ -7736,7 +7741,7 @@ msgstr "假期分配记录"
 msgid "Leave Application"
 msgstr "请假申请"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:735
+#: hrms/hr/doctype/leave_application/leave_application.py:756
 msgid "Leave Application period cannot be across two non-consecutive leave allocations {0} and {1}."
 msgstr "请假期间不可跨越不连续的假期分配记录{0}和{1}"
 
@@ -7814,7 +7819,7 @@ msgstr "假期封存日期"
 msgid "Leave Block List Name"
 msgstr "假期封存列表名称"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:1305
+#: hrms/hr/doctype/leave_application/leave_application.py:1326
 msgid "Leave Blocked"
 msgstr "已封存假期"
 
@@ -8029,7 +8034,7 @@ msgstr "不可在{0}前分配假期，因未来分配记录{1}已结转余额"
 msgid "Leave cannot be applied/cancelled before {0}, as leave balance has already been carry-forwarded in the future leave allocation record {1}"
 msgstr "不可在{0}前申请/取消假期，因未来分配记录{1}已结转余额"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:482
+#: hrms/hr/doctype/leave_application/leave_application.py:502
 msgid "Leave of type {0} cannot be longer than {1}."
 msgstr "{0}类型假期不可超过{1}天"
 
@@ -8439,7 +8444,7 @@ msgstr "最多可结转的假期"
 msgid "Maximum Consecutive Leaves Allowed"
 msgstr "允许的最大连续假期天数"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:492
+#: hrms/hr/doctype/leave_application/leave_application.py:512
 msgid "Maximum Consecutive Leaves Exceeded"
 msgstr "超过最大连续假期限制"
 
@@ -8843,7 +8848,7 @@ msgstr "未选择员工"
 msgid "No Interview has been scheduled."
 msgstr "未安排面试"
 
-#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:105
+#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:106
 msgid "No Leave Period Found"
 msgstr "未找到假期周期"
 
@@ -8939,7 +8944,7 @@ msgstr "尚未收到反馈"
 msgid "No items selected"
 msgstr "未选择项目"
 
-#: hrms/hr/doctype/attendance/attendance.py:185
+#: hrms/hr/doctype/attendance/attendance.py:190
 msgid "No leave record found for employee {0} on {1}"
 msgstr "未找到员工{0}在{1}的假期记录"
 
@@ -9289,7 +9294,7 @@ msgstr "期初余额"
 msgid "Opening closed."
 msgstr "期初已关闭"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:588
+#: hrms/hr/doctype/leave_application/leave_application.py:609
 msgid "Optional Holiday List not set for leave period {0}"
 msgstr "假期周期{0}未设置可选节假日列表"
 
@@ -9369,7 +9374,7 @@ msgstr "总体平均评分"
 msgid "Overlapping Attendance Request"
 msgstr "重叠考勤申请"
 
-#: hrms/hr/doctype/attendance/attendance.py:113
+#: hrms/hr/doctype/attendance/attendance.py:118
 msgid "Overlapping Shift Attendance"
 msgstr "重叠班次考勤"
 
@@ -9885,7 +9890,7 @@ msgstr "请检查员工是否请假或所选日期存在相同状态考勤"
 msgid "Please confirm once you have completed your training"
 msgstr "完成培训后请确认"
 
-#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:101
+#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:102
 msgid "Please create a new {0} for the date {1} first."
 msgstr "请先为日期{1}新建{0}"
 
@@ -9955,7 +9960,7 @@ msgstr "请先选择公司"
 msgid "Please select a csv file"
 msgstr "请选择CSV文件"
 
-#: hrms/hr/doctype/attendance/attendance.py:326
+#: hrms/hr/doctype/attendance/attendance.py:333
 msgid "Please select a date."
 msgstr "请选择日期"
 
@@ -10041,11 +10046,11 @@ msgstr "请在公司默认设置中指定默认现金账户"
 msgid "Please set account in Salary Component {0}"
 msgstr "请在薪资组件{0}设置账户"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:643
+#: hrms/hr/doctype/leave_application/leave_application.py:664
 msgid "Please set default template for Leave Approval Notification in HR Settings."
 msgstr "请在HR设置中设置假期审批通知默认模板"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:618
+#: hrms/hr/doctype/leave_application/leave_application.py:639
 msgid "Please set default template for Leave Status Notification in HR Settings."
 msgstr "请在HR设置中设置假期状态通知默认模板"
 
@@ -10156,6 +10161,8 @@ msgid "Preferred Area for Lodging"
 msgstr "首选住宿区域"
 
 #. Option for the 'Status' (Select) field in DocType 'Attendance'
+#. Option for the 'Status for Other Half' (Select) field in DocType
+#. 'Attendance'
 #. Option for the 'Status' (Select) field in DocType 'Employee Attendance Tool'
 #. Option for the 'Attendance' (Select) field in DocType 'Training Event
 #. Employee'
@@ -10196,8 +10203,8 @@ msgid "Print Heading"
 msgstr "打印标题"
 
 #: hrms/payroll/report/salary_register/salary_register.html:40
-msgid "Printed On"
-msgstr "打印日期"
+msgid "Printed On {0}"
+msgstr ""
 
 #. Label of the printing_details (Section Break) field in DocType 'Job Offer'
 #: hrms/hr/doctype/job_offer/job_offer.json
@@ -10446,7 +10453,6 @@ msgstr "手动评分目标"
 #. Label of the rating (Rating) field in DocType 'Employee Feedback Rating'
 #. Label of the rating (Rating) field in DocType 'Skill Assessment'
 #: hrms/hr/doctype/employee_feedback_rating/employee_feedback_rating.json
-#: hrms/hr/doctype/interview/interview.js:194
 #: hrms/hr/doctype/job_applicant/job_applicant_dashboard.html:11
 #: hrms/hr/doctype/skill_assessment/skill_assessment.json
 msgid "Rating"
@@ -10503,7 +10509,7 @@ msgstr "申请原因"
 msgid "Reason for Withholding Salary"
 msgstr "薪资代扣原因"
 
-#: hrms/hr/doctype/employee_checkin/employee_checkin.py:334
+#: hrms/hr/doctype/employee_checkin/employee_checkin.py:369
 msgid "Reason for skipping auto attendance:"
 msgstr "跳过自动考勤的原因："
 
@@ -10597,7 +10603,7 @@ msgid "Reference Document Type"
 msgstr "参考文档类型"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:371
-#: hrms/hr/doctype/leave_application/leave_application.py:486
+#: hrms/hr/doctype/leave_application/leave_application.py:506
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:137
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:91
 msgid "Reference: {0}"
@@ -11440,7 +11446,7 @@ msgstr "薪资代扣周期"
 msgid "Salary Withholding {0} already exists for employee {1} for the selected period"
 msgstr "员工{1}在选定期间已存在薪资代扣{0}"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:327
+#: hrms/hr/doctype/leave_application/leave_application.py:347
 msgid "Salary already processed for period between {0} and {1}, Leave application period cannot be between this date range."
 msgstr "薪资已在{0}至{1}期间处理，请假申请期间不可在此范围内"
 
@@ -11661,7 +11667,7 @@ msgstr "自我评分"
 msgid "Self-Study"
 msgstr "自主学习"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:825
+#: hrms/hr/doctype/leave_application/leave_application.py:846
 msgid "Self-approval for leaves is not allowed"
 msgstr "禁止自我审批假期"
 
@@ -12168,7 +12174,7 @@ msgstr "单次分配"
 #: hrms/hr/doctype/designation_skill/designation_skill.json
 #: hrms/hr/doctype/employee_skill/employee_skill.json
 #: hrms/hr/doctype/expected_skill_set/expected_skill_set.json
-#: hrms/hr/doctype/interview/interview.js:189 hrms/hr/doctype/skill/skill.json
+#: hrms/hr/doctype/skill/skill.json
 #: hrms/hr/doctype/skill_assessment/skill_assessment.json
 msgid "Skill"
 msgstr "技能"
@@ -12411,6 +12417,11 @@ msgstr "统计组件"
 #: hrms/payroll/doctype/salary_withholding/salary_withholding.json
 msgid "Status"
 msgstr "状态"
+
+#. Label of the half_day_status (Select) field in DocType 'Attendance'
+#: hrms/hr/doctype/attendance/attendance.json
+msgid "Status for Other Half"
+msgstr ""
 
 #: hrms/setup.py:401
 msgid "Stock Options"
@@ -12795,11 +12806,11 @@ msgstr "薪资组件金额计入工资条收入/扣除项的日期"
 msgid "The day of the month when leaves should be allocated"
 msgstr "每月分配假期的日期"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:370
+#: hrms/hr/doctype/leave_application/leave_application.py:390
 msgid "The day(s) on which you are applying for leave are holidays. You need not apply for leave."
 msgstr "申请日期为节假日，无需请假"
 
-#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:64
+#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:65
 msgid "The days between {0} to {1} are not valid holidays."
 msgstr "{0}至{1}期间并非有效节假日"
 
@@ -12885,7 +12896,7 @@ msgstr "此操作将阻止修改关联的考核反馈/目标"
 msgid "This check-in is outside assigned shift hours and will not be considered for attendance. If a shift is assigned, adjust its time window and Fetch Shift again."
 msgstr "当前签到时间超出班次时段不计入考勤。若已分配班次，请调整时间后重新获取班次"
 
-#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:97
+#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:98
 msgid "This compensatory leave will be applicable from {0}."
 msgstr "本补休假自{0}起生效"
 
@@ -13711,11 +13722,11 @@ msgstr "审核中"
 msgid "Unlink Payment"
 msgstr "解除付款关联"
 
-#: hrms/hr/doctype/attendance/attendance.py:219
+#: hrms/hr/doctype/attendance/attendance.py:224
 msgid "Unlinked Attendance record from Employee Checkins: {}"
 msgstr "已解除考勤记录与员工签到的关联：{}"
 
-#: hrms/hr/doctype/attendance/attendance.py:222
+#: hrms/hr/doctype/attendance/attendance.py:227
 msgid "Unlinked logs"
 msgstr "未关联日志"
 
@@ -14059,7 +14070,7 @@ msgstr "警告：贷款管理模块已从ERPNext中分离"
 msgid "Walk In"
 msgstr "现场应聘"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:409
+#: hrms/hr/doctype/leave_application/leave_application.py:429
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:153
 #: hrms/payroll/doctype/salary_component/salary_component.py:56
 #: hrms/payroll/doctype/salary_structure/salary_structure.js:321
@@ -14068,15 +14079,15 @@ msgstr "现场应聘"
 msgid "Warning"
 msgstr "警告"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:397
+#: hrms/hr/doctype/leave_application/leave_application.py:417
 msgid "Warning: Insufficient leave balance for Leave Type {0} in this allocation."
 msgstr "警告：本次分配中{0}假期类型的可用余额不足"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:405
+#: hrms/hr/doctype/leave_application/leave_application.py:425
 msgid "Warning: Insufficient leave balance for Leave Type {0}."
 msgstr "警告：{0}假期类型的可用余额不足"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:343
+#: hrms/hr/doctype/leave_application/leave_application.py:363
 msgid "Warning: Leave application contains following block dates"
 msgstr "警告：请假申请包含以下禁假日期"
 
@@ -14299,11 +14310,11 @@ msgstr "是"
 msgid "Yes, Proceed"
 msgstr "确定继续"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:353
+#: hrms/hr/doctype/leave_application/leave_application.py:373
 msgid "You are not authorized to approve leaves on Block Dates"
 msgstr "您无权批准禁假日期内的请假"
 
-#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:58
+#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:59
 msgid "You are not present all day(s) between compensatory leave request days"
 msgstr "调休申请日期间您未全天出勤"
 
@@ -14347,7 +14358,7 @@ msgstr "您可补充其他详细信息（如有）并提交录用通知"
 msgid "You must be within {0} meters of your shift location to check in."
 msgstr "需在班次地点{0}米范围内方可签到"
 
-#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:52
+#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:53
 msgid "You were only present for Half Day on {}. Cannot apply for a full day compensatory leave"
 msgstr "您仅于{}出勤半天，不可申请全天调休"
 
@@ -14359,7 +14370,7 @@ msgstr "您的面试时段已从{0}{1}-{2}调整至{3}{4}-{5}"
 msgid "Your password has expired. Please reset your password to continue"
 msgstr "密码已过期，请重置密码以继续"
 
-#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:100
+#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:101
 msgid "active"
 msgstr "生效中"
 
@@ -14424,10 +14435,6 @@ msgstr "评审"
 #: frontend/src/components/RequestActionSheet.vue:283
 msgid "submitted"
 msgstr "已提交"
-
-#: hrms/payroll/report/salary_register/salary_register.html:8
-msgid "to"
-msgstr "至"
 
 #: hrms/payroll/doctype/salary_component/salary_component.py:95
 msgid "via Salary Component sync"
@@ -14513,7 +14520,7 @@ msgstr "{0}已启用{1}"
 msgid "{0} is mandatory"
 msgstr "{0}为必填项"
 
-#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:69
+#: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:70
 msgid "{0} is not a holiday."
 msgstr "{0}非节假日"
 
@@ -14521,7 +14528,7 @@ msgstr "{0}非节假日"
 msgid "{0} is not allowed to submit Interview Feedback for the Interview: {1}"
 msgstr "{0}无权提交面试{1}的反馈"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:596
+#: hrms/hr/doctype/leave_application/leave_application.py:617
 msgid "{0} is not in Optional Holiday List"
 msgstr "{0}不在可选假期列表中"
 
@@ -14650,7 +14657,7 @@ msgstr "{} 待处理"
 msgid "{} Unclaimed"
 msgstr "{} 未认领"
 
-#: hrms/hr/doctype/employee_checkin/employee_checkin.py:254
+#: hrms/hr/doctype/employee_checkin/employee_checkin.py:272
 msgid "{} is an invalid Attendance Status."
 msgstr "{} 是无效的考勤状态"
 
