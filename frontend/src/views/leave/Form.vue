@@ -63,7 +63,9 @@ const leaveApprovalDetails = createResource({
 	url: "hrms.api.get_leave_approval_details",
 	params: { employee: employee.data.name },
 	onSuccess(data) {
-		setLeaveApprovers(data)
+		if (!props.id) {
+			setLeaveApprovers(data)
+		}
 	},
 })
 
@@ -131,12 +133,7 @@ watch(
 function getFilteredFields(fields) {
 	// reduce noise from the form view by excluding unnecessary fields
 	// ex: employee and other details can be fetched from the session user
-	const excludeFields = [
-		"naming_series",
-		"sb_other_details",
-		"salary_slip",
-		"letter_head",
-	]
+	const excludeFields = ["naming_series", "sb_other_details", "salary_slip", "letter_head"]
 
 	const employeeFields = [
 		"employee",
@@ -161,12 +158,9 @@ function setFormReadOnly() {
 function validateDates(from_date, to_date) {
 	if (!(from_date && to_date)) return
 
-	const error_message =
-		from_date > to_date ? __("To Date cannot be before From Date") : ""
+	const error_message = from_date > to_date ? __("To Date cannot be before From Date") : ""
 
-	const from_date_field = formFields.data.find(
-		(field) => field.fieldname === "from_date"
-	)
+	const from_date_field = formFields.data.find((field) => field.fieldname === "from_date")
 	from_date_field.error_message = error_message
 }
 
@@ -176,7 +170,7 @@ function setTotalLeaveDays() {
 	const leaveDays = createResource({
 		url: "hrms.hr.doctype.leave_application.leave_application.get_number_of_leave_days",
 		params: {
-			employee: employee.data.name,
+			employee: props.id ? leaveApplication.value.employee : employee.data.name,
 			leave_type: leaveApplication.value.leave_type,
 			from_date: leaveApplication.value.from_date,
 			to_date: leaveApplication.value.to_date,
@@ -197,7 +191,7 @@ function setLeaveBalance() {
 	const leaveBalance = createResource({
 		url: "hrms.hr.doctype.leave_application.leave_application.get_leave_balance_on",
 		params: {
-			employee: employee.data.name,
+			employee: props.id ? leaveApplication.value.employee : employee.data.name,
 			date: leaveApplication.value.from_date,
 			to_date: leaveApplication.value.to_date,
 			leave_type: leaveApplication.value.leave_type,
@@ -211,9 +205,7 @@ function setLeaveBalance() {
 }
 
 function setHalfDayDate(half_day) {
-	const half_day_date = formFields.data.find(
-		(field) => field.fieldname === "half_day_date"
-	)
+	const half_day_date = formFields.data.find((field) => field.fieldname === "half_day_date")
 	half_day_date.hidden = !half_day
 	half_day_date.reqd = half_day
 
@@ -227,22 +219,16 @@ function setHalfDayDate(half_day) {
 }
 
 function setHalfDayDateRange() {
-	const half_day_date = formFields.data.find(
-		(field) => field.fieldname === "half_day_date"
-	)
+	const half_day_date = formFields.data.find((field) => field.fieldname === "half_day_date")
 	half_day_date.minDate = leaveApplication.value.from_date
 	half_day_date.maxDate = leaveApplication.value.to_date
 }
 
 function setLeaveApprovers(data) {
-	const leave_approver = formFields.data?.find(
-		(field) => field.fieldname === "leave_approver"
-	)
+	const leave_approver = formFields.data?.find((field) => field.fieldname === "leave_approver")
 	leave_approver.reqd = data?.is_mandatory
 	leave_approver.documentList = data?.department_approvers.map((approver) => ({
-		label: approver.full_name
-			? `${approver.name} : ${approver.full_name}`
-			: approver.name,
+		label: approver.full_name ? `${approver.name} : ${approver.full_name}` : approver.name,
 		value: approver.name,
 	}))
 
@@ -251,9 +237,7 @@ function setLeaveApprovers(data) {
 }
 
 function setLeaveTypes(data) {
-	const leave_type = formFields.data.find(
-		(field) => field.fieldname === "leave_type"
-	)
+	const leave_type = formFields.data.find((field) => field.fieldname === "leave_type")
 	leave_type.documentList = data?.map((leave_type) => ({
 		label: leave_type,
 		value: leave_type,
@@ -270,6 +254,6 @@ function areValuesSet() {
 
 function validateForm() {
 	setHalfDayDate(leaveApplication.value.half_day)
-	leaveApplication.value.employee = employee.data.name
+	leaveApplication.value.employee = props.id ? leaveApplication.value.employee : employee.data.name
 }
 </script>
